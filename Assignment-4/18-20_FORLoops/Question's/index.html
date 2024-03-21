@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For-Loop </title>
+</head>
+<body>
+    
+    <script>
+        // Question-1
+        // Using a for loop to display "Hello World" 5 times
+        // for (let i = 1; i <= 5; i++) {
+        // document.write("Hello World <br>");
+        // }
+
+        // Question-2
+        // for (let i = 1; i <= 10; i++) {
+        // document.write(i + "<br>");
+        // }
+
+        // Question-3
+        // Taking input from the user for the table number and length
+        // let tableNumber = parseInt(prompt("Enter the number for the multiplication table:"));
+        // let tableLength = parseInt(prompt("Enter the length of the multiplication table:"));
+
+        // // Using a for loop to print the multiplication table
+        // for (let i = 1; i <= tableLength; i++) {
+        // let result = tableNumber * i;
+        // document.write(`${tableNumber} * ${i} = ${result} <br>`);
+        // }
+
+        // Question-4
+        // The given array
+        // let A = ["Nokia", "Samsung", "Apple", "Sony", "Huawei"];
+
+        // // Using a for loop to print each element on a new line
+        // for (let i = 0; i < A.length; i++) {
+        //  document.write(A[i] +"<br>");
+        // }      
+
+        // Question-5
+
+        // The given array of fruits
+        // let fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+
+        // // Using a for loop to print each item
+        // for (let i = 0; i < fruits.length; i++) {
+        // document.write(fruits[i] +"<br>");
+        // }
+        
+         // Question-6
+
+         // Prompting the user to enter the number of items for the array
+        // let itemCount = parseInt(prompt("Enter the number of items for the array:"));
+        // let newArray = [];
+
+        // // Using a for loop to initialize the array with N items
+        // for (let i = 0; i < itemCount; i++) {
+        // let item = prompt(`Enter item ${i + 1}:`);
+        // newArray.push(item);
+        // }
+
+        // // Outputting the initialized array
+        // document.write("Number of items "+"<br>"+ newArray + "<br>");
+
+        // Question-7
+
+        // Counting: 1 to 15
+          // let countingSeries = [];
+          // for (let i = 1; i <= 15; i++) {
+          //   countingSeries.push(i);
+          // }
+          // console.log("Counting:", countingSeries.join(", "));
+
+          // // Reverse counting: 10 to 1
+          // let reverseCountingSeries = [];
+          // for (let i = 10; i >= 1; i--) {
+          //   reverseCountingSeries.push(i);
+          // }
+          // console.log("Reverse counting:", reverseCountingSeries.join(", "));
+
+          // // Even numbers: 0 to 20
+          // let evenSeries = [];
+          // for (let i = 0; i <= 20; i += 2) {
+          //   evenSeries.push(i);
+          // }
+          // console.log("Even:", evenSeries.join(", "));
+
+          // // Odd numbers: 1 to 19
+          // let oddSeries = [];
+          // for (let i = 1; i <= 19; i += 2) {
+          //   oddSeries.push(i);
+          // }
+          // console.log("Odd:", oddSeries.join(", "));
+
+          // // Series: 2k to 20k
+          // let seriesK = [];
+          // for (let i = 1; i <= 10; i++) {
+          //   seriesK.push(i * 2 + "k");
+          // }
+          // console.log("Series:", seriesK.join(", "));
+
+         // Question-8
+
+        // The given array
+        // let A = ["cake", "apple pie", "cookie", "chips", "patties"];
+
+        // // Prompting the user to enter the item to search for
+        // let userInput = prompt("Enter the item to search for:");
+
+        // // Checking if the item is found in the list
+        // let found = false;
+        // for (let i = 0; i < A.length; i++) {
+        // if (A[i] === userInput) {
+        //     found = true;
+        //     break;
+        // }
+        // }
+
+        // // Prompting the user whether the given item is found in the list or not
+        // if (found) {
+        // alert("Yes, the item is found in the list.");
+        // } else {
+        // alert("No, the item is not found in the list.");
+        // }
+
+        // Question-9
+
+        // // The given array
+        // let A = [24, 53, 78, 91, 12];
+
+        // // Initializing the largest number with the first element of the array
+        // let largestNumber = A[0];
+
+        // // Finding the largest number in the array
+        // for (let i = 1; i < A.length; i++) {
+        //   if (A[i] > largestNumber) {
+        //     largestNumber = A[i];
+        //   }
+        // }
+
+        // // Outputting the largest number
+        // document.write("The largest number in the array is:", largestNumber);
+
+
+        // Question-10
+
+        // The given array
+        // let A = [24, 53, 78, 91, 12];
+
+        // // Initializing the smallest number with the first element of the array
+        // let smallestNumber = A[0];
+
+        // // Finding the smallest number in the array
+        // for (let i = 1; i < A.length; i++) {
+        //   if (A[i] < smallestNumber) {
+        //     smallestNumber = A[i];
+        //   }
+        // }
+
+        // // Outputting the smallest number
+        // document.write("The smallest number in the array is:", smallestNumber);
+
+
+
+        // Question-11
+
+        // function findLargestSmallest(arr) {
+        // if (arr.length === 0) {
+        //     return "Array is empty";
+        // } else {
+        //     let largest = arr[0];
+        //     let smallest = arr[0];
+        //     for (let i = 1; i < arr.length; i++) {
+        //     if (arr[i] > largest) {
+        //         largest = arr[i];
+        //     } else if (arr[i] < smallest) {
+        //         smallest = arr[i];
+        //     }
+        //     }
+        //     return { largest, smallest };
+        // }
+        // }
+
+        // // Example usage
+        // const numbers = [20, 50, 35, 30, 25];
+        // const { largest, smallest } = findLargestSmallest(numbers);
+        // document.write("Largest number:", largest);
+        // document.write(" <br> Smallest number:", smallest);
+
+        // Question-12
+
+        // javascript
+        // function printMultiplesOf5() {
+        // for (let i = 1; i <= 100; i++) {
+        //     if (i % 5 === 0) {
+        //     document.write(i + " ");
+        //     }
+        // }
+        // }
+
+        // // Call the function to print the multiples of 5
+        // printMultiplesOf5();
+
+        // Question-13
+
+        // javascript
+        // Given arrays
+        // var students = ["Shoaib", "Anus", "Taha", "Abdul Samad"];
+        // var scores = [98, 73, 89, 90];
+
+        // // Function to generate the HTML table
+        // function generateHTMLTable() {
+        // var table = '<table border="1">';
+        // table += '<tr><th>Student Name</th><th>Score</th></tr>';
+        // for (var i = 0; i < students.length; i++) {
+        //     table += '<tr><td>' + students[i] + '</td><td>' + scores[i] + '</td></tr>';
+        // }
+        // table += '</table>';
+        // document.write(table);  // This will write the table to the document body
+        // }
+
+        // // Call the function to generate the HTML table
+        // generateHTMLTable();
+
+        // Question-14
+
+        // var scores = [18, 45, 3, 22, 34, 50];
+
+        // // Function to print numbers from the start of the array to the desired stop value
+        // function printNumbersUpToStopValue(stopValue) {
+        // for (var i = 0; i < scores.length; i++) {
+        //     if (scores[i] <= stopValue) {
+        //     document.write(scores[i]);
+        //     } else {
+        //     break;  // Exit the loop if the value exceeds the stop value
+        //     }
+        // }
+        // }
+
+        // // Example usage:
+        // var userInput = 34;  // This can be taken as input from the user
+        // printNumbersUpToStopValue(userInput)
+
+        // Question-15
+
+        // var A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+
+        // // Nested for loops to print each element on a new line
+        // for (var i = 0; i < A.length; i++) {
+        // for (var j = 0; j < A[i].length; j++) {
+        //     document.write(A[i][j]);
+        // }
+        // }   
+
+        // Question-16
+
+        // Function to repeatedly print the value of the variable num
+        // function printDecreasingValues(num) {
+        // while (num > 0) {
+        //     document.write(num);
+        //     num -= 0.5;
+        // }
+        // }
+
+        // Example usage:
+        // var userInput = 5;  // This can be taken as input from the user
+        // printDecreasingValues(userInput);
+
+        // Question-17
+
+        // javascript
+        // For loop to iterate from 0 to 20 and report even/odd numbers
+        // for (var i = 0; i <= 20; i++) {
+        // if (i % 2 === 0) {
+        //    document.write(i + " is even" + "<br>");
+        // } else {
+        //    document.write(i + " is odd" + "<br>");
+        // }
+        // }
+        // Question-18
+
+        // javascript
+        // Initialize the product to 1
+        // var product = 1;
+
+        // Loop through the numbers from 1 to 7 and calculate the product of the odd integers
+        // for (var i = 1; i <= 7; i++) {
+        // if (i % 2 !== 0) {
+        //     product *= i;  // Multiply the current number with the product
+        // }
+        // }
+
+        // document.write("The product of the odd integers from 1 to 7 is: " + product);
+        // Question-19
+
+        // Function to create a wedge of stars
+        // function createWedgeOfStars(initialStars) {
+        // for (var i = initialStars; i > 0; i--) {
+        //     var line = '';
+        //     for (var j = 0; j < i; j++) {
+        //     line += '*';
+        //     }
+        //     document.write(line + " ") ;
+        // document.write("<br>")
+
+        // }
+        // }
+
+        // // Example usage:
+        // var initialStarsInput = 7;  // This can be taken as input from the user
+        // createWedgeOfStars(initialStarsInput);
+
+        // Question-20
+
+        // function createPatterns(numLines) {
+        // var pattern1 = '';
+        // var pattern2 = '';
+
+        // for (var i = 1; i <= numLines; i++) {
+        //     // Pattern 1 - Increasing numbers
+        //     pattern1 += i + ' ';
+            
+        //     // Pattern 2 - Decreasing numbers
+        //     var spaces = ' '.repeat(numLines - i);  // Add leading spaces
+        //     pattern2 += spaces + (numLines - i + 1) + '\n';  // Add the number and a line break
+        // }
+
+        // document.write('<h3>Pattern 1 - Increasing Numbers:</h3>');
+        // document.write('<p>' + pattern1 + '</p>');
+
+        // document.write('<h3>Pattern 2 - Decreasing Numbers:</h3>');
+        // document.write('<pre>' + pattern2 + '</pre>');
+        // }
+
+        // // Example usage:
+        // var numLinesInput = 5;  // This can be taken as input from the user
+        // createPatterns(numLinesInput);
+
+
+    </script>
+</body>
+</html>

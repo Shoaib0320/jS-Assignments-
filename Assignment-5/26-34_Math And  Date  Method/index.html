@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>26-34_Math And Date Method</title>
+</head>
+<body>
+    
+    <script>
+
+        // Question-1
+
+        // Taking input from the user
+// var num = parseInt(prompt("Enter a positive integer:"));
+
+// // Displaying the input number
+// document.write("a. Number: " + num + "<br>");
+
+// // Calculating and displaying the round off value
+// document.write("b. Round off value: " + Math.round(num) + "<br>");
+
+// // Calculating and displaying the floor value
+// document.write("c. Floor value: " + Math.floor(num) + "<br>");
+
+// // Calculating and displaying the ceil value
+// document.write("d. Ceil value: " + Math.ceil(num) + "<br>");
+
+
+
+        // Question-2
+
+        // javascript
+        // // Taking input from the user
+        // var num = parseInt(prompt("Enter a negative integer:"));
+
+        // // Displaying the input number
+        // document.write("a. Number: " + num + "<br>");
+
+        // // Calculating and displaying the round off value
+        // document.write("b. Round off value: " + Math.round(num) + "<br>");
+
+        // // Calculating and displaying the floor value
+        // document.write("c. Floor value: " + Math.floor(num) + "<br>");
+
+        // // Calculating and displaying the ceil value
+        // document.write("d. Ceil value: " + Math.ceil(num) + "<br>");
+
+        // Question-3
+
+        // javascript
+        // Taking input from the user
+        // var num = parseFloat(prompt("Enter a positive floating point number:"));
+
+        // // Displaying the input number
+        // document.write("a. Number: " + num + "<br>");
+
+        // // Calculating and displaying the round off value
+        // document.write("b. Round off value: " + Math.round(num) + "<br>");
+
+        // // Calculating and displaying the floor value
+        // document.write("c. Floor value: " + Math.floor(num) + "<br>");
+
+        // // Calculating and displaying the ceil value
+        // document.write("d. Ceil value: " + Math.ceil(num) + "<br>");
+
+        // Question-4
+
+
+        // // javascript
+        // // Taking input from the user
+        // var num = parseFloat(prompt("Enter a negative floating point number:"));
+
+        // // Displaying the input number
+        // document.write("a. Number: " + num + "<br>");
+
+        // // Calculating and displaying the round off value
+        // document.write("b. Round off value: " + Math.round(num) + "<br>");
+
+        // // Calculating and displaying the floor value
+        // document.write("c. Floor value: " + Math.floor(num) + "<br>");
+
+        // // Calculating and displaying the ceil value
+        // document.write("d. Ceil value: " + Math.ceil(num) + "<br>");
+
+        // Question-5
+
+        // javascript
+        // Taking input from the user
+        // var num = parseFloat(prompt("Enter a number:"));
+
+        // // Calculating the absolute value
+        // var absoluteValue = Math.abs(num);
+
+        // // Displaying the absolute value
+        // document.write("The absolute value of " + num + " is " + absoluteValue);
+
+        // // Question-6
+
+        // // Simulating a dice roll
+        // var diceValue = Math.floor(Math.random() * 6) + 1; // Generates a random number between 1 and 6
+
+        // // Displaying the value of the dice
+        // document.write(" The value of the dice is: " + diceValue);
+
+        // Question-7
+
+        // Simulating a coin toss
+        // var coinValue = Math.random() < 0.5 ? 'Heads' : 'Tails'; // Uses Math.random() to generate a value less than 0.5 for heads, and greater than or equal to 0.5 for tails
+
+        // // Displaying the value of the coin toss
+        // document.write("The value of the coin is: " + coinValue);
+
+        // Question-8
+
+//         // Generating a random number between 1 and 100
+// var randomNumber = Math.floor(Math.random() * 100) + 1;
+
+// // Displaying the random number
+// document.write("The random number between 1 and 100 is: " + randomNumber);
+
+        // Question-9
+
+        // Asking user for input
+        // var userInput = prompt("Please enter your weight:");
+
+        // // Parsing the user input to extract the weight
+        // var parsedWeight = parseFloat(userInput);
+
+        // // Displaying the parsed weight
+        // document.write("Your weight is: " + parsedWeight + " kgs");
+
+        // Question-10
+
+        // Storing a random secret number between 1 and 10
+// var secretNumber = Math.floor(Math.random() * 10) + 1;
+
+// // Asking the user to input a number
+// var userInput = parseInt(prompt("Please input a number between 1 and 10:"));
+
+// // Checking if the user input equals the secret number
+// if (userInput === secretNumber) {
+//     // Congratulating the user
+//     document.write("Congratulations! You guessed the secret number.");
+// }
+
+        // Question-11
+
+        // Getting the current date and time
+// var currentDateTime = new Date();
+
+// // Displaying the current date and time
+// document.write("Current date and time: " + currentDateTime);
+
+
+
+        // Question-12
+
+        // // Array of month names
+        // var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+
+        // // Getting the current month
+        // var currentMonth = new Date().getMonth();
+
+        // // Alerting the current month in words
+        // alert("The current month is: " + monthNames[currentMonth]);
+
+        // Question-13
+
+        // Array of day names
+        // var dayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+        // // Getting the current day
+        // var currentDay = new Date().getDay();
+
+        // // Alerting the first 3 letters of the current day
+        // alert("The first 3 letters of the current day are: " + dayNames[currentDay]);
+
+        // Question-14
+
+        // Getting the current day
+        // var currentDay = new Date().getDay();
+
+        // // Checking if it's Saturday (index 6) or Sunday (index 0)
+        // if (currentDay === 6 || currentDay === 0) {
+        //     // Displaying the message for Fun day
+        //     document.write("It’s Fun day");
+        // }
+        // Question-15
+
+        // Getting the current date
+// var currentDate = new Date().getDate();
+
+// // Checking if the date is less than 16th of the month
+// if (currentDate < 16) {
+//     // Displaying the message for the first fifteen days of the month
+//     document.write("First fifteen days of the month");
+// } else {
+//     // Displaying the message for the last days of the month
+//     document.write("Last days of the month");
+// }
+
+        // Question-16
+
+        // Assigning the minutes since midnight, Jan. 1, 1970 to a new variable
+        // var minutesSince1970 = (new Date() - new Date(new Date().getFullYear(), 0, 1, 0, 0, 0)) / (60 * 1000);
+
+        // // Displaying the minutes since midnight, Jan. 1, 1970
+        // document.write("Minutes since midnight, Jan. 1, 1970: " + minutesSince1970);
+
+        // Question-17
+
+        // Getting the current hour
+        // var currentHour = new Date().getHours();
+
+        // // Checking if it's before noon (less than 12)
+        // if (currentHour < 12) {
+        //     // Displaying the message for AM
+        //     alert("It's AM");
+        // } else {
+        //     // Displaying the message for PM
+        //     alert("It's PM");
+        // }
+
+        // Question-18
+
+        // Creating a Date object for the last day of the last month of 2020
+        // var laterDate = new Date(2020, 11, 0);
+
+        // // Displaying the value of the laterDate variable
+        // document.write("The value of laterDate: " + laterDate);
+
+        // Question-19
+
+            // Define the starting date of Ramadan (1st Ramadan) as June 18, 2015
+        // var ramadanStartDate = new Date('June 18, 2015');
+
+        // // Get the current date
+        // var currentDate = new Date();
+
+        // // Calculate the difference in milliseconds between the two dates
+        // var timeDiff = currentDate.getTime() - ramadanStartDate.getTime();
+
+        // // Convert the difference from milliseconds to days
+        // var daysPast = Math.floor(timeDiff / (1000 * 3600 * 24));
+
+        // // Alert the number of days past since 1st Ramadan
+        // alert("Number of days past since 1st Ramadan: " + daysPast);
+
+
+        // Question-20
+
+        // // Define the reference date
+        // var referenceDate = new Date();
+
+        // // Set the beginning of 2015 as the target date
+        // var beginningOf2015 = new Date('January 1, 2015');
+
+        // // Calculate the difference in milliseconds between the two dates
+        // var timeDiff = referenceDate.getTime() - beginningOf2015.getTime();
+
+        // // Convert the difference from milliseconds to seconds
+        // var secondsElapsed = Math.floor(timeDiff / 1000);
+
+        // // Display the seconds elapsed in the browser
+        // document.getElementById("secondsElapsed").textContent = "Seconds elapsed since the beginning of 2015: " + secondsElapsed;
+
+        // Question-21
+
+        // Creating a Date object for the current date and time
+        // var currentDate = new Date();
+
+        // // Extracting the hours from the current date
+        // var currentHours = currentDate.getHours();
+
+        // // Resetting the date object one hour ahead
+        // currentDate.setHours(currentHours + 1);
+
+        // // Displaying the updated date object in the browser
+        // document.write("Updated Date: " + currentDate);
+        
+        // Question-22
+
+        // Creating a Date object for the current date and time
+        // var currentDate = new Date();
+
+        // // Resetting the date 100 years back
+        // currentDate.setFullYear(currentDate.getFullYear() - 100);
+
+        // // Displaying the updated date in an alert box
+        // alert("Date 100 years back: " + currentDate);
+
+        // Question-23
+
+        // Asking the user for their age
+        // var userAge = prompt("Please enter your age:");
+
+        // // Calculating the birth year by subtracting the user's age from the current year
+        // var currentYear = new Date().getFullYear();
+        // var birthYear = currentYear - userAge;
+
+        // // Displaying the birth year in the browser
+        // document.write("Your birth year is: " + birthYear);
+
+        // Question-24
+
+        // Prompting the user to enter the required details
+        var customerName = prompt("Enter customer name:");
+        var currentMonth = prompt("Enter current month:");
+        var numberOfUnits = parseFloat(prompt("Enter number of units:"));
+        var chargesPerUnit = parseFloat(prompt("Enter charges per unit:"));
+        var netAmountPayable = numberOfUnits * chargesPerUnit;
+        var latePaymentSurcharge = netAmountPayable * 0.1; // Assuming a late payment surcharge of 10%
+        var grossAmountPayable = netAmountPayable + latePaymentSurcharge;
+
+        // Rounding off amounts to 2 decimal places
+        netAmountPayable = netAmountPayable.toFixed(2);
+        latePaymentSurcharge = latePaymentSurcharge.toFixed(2);
+        grossAmountPayable = grossAmountPayable.toFixed(2);
+
+        // Displaying the K-Electric bill in the browser
+        document.write("<h2>K-Electric Bill</h2>");
+        document.write("<p>Customer Name: " + customerName + "</p>");
+        document.write("<p>Current Month: " + currentMonth + "</p>");
+        document.write("<p>Number of units: " + numberOfUnits + "</p>");
+        document.write("<p>Charges per unit: " + chargesPerUnit.toFixed(2) + "</p>");
+        document.write("<p>Net Amount Payable (within Due Date): " + netAmountPayable + "</p>");
+        document.write("<p>Late Payment Surcharge: " + latePaymentSurcharge + "</p>");
+        document.write("<p>Gross Amount Payable (after Due Date): " + grossAmountPayable + "</p>");
+
+
+
+    </script>
+</body>
+</html>
